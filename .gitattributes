@@ -1,0 +1,5 @@
+# Keep every file byte-for-byte as committed. Without this, Git on Windows
+# may convert line endings on checkout, which changes the SHA-256 hashes in
+# CHECKSUMS.txt (and, for Data Science, the hash of tinyds/data.py printed
+# in Appendix C, Section C.10).
+* -text
